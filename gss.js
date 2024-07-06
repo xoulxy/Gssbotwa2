@@ -4003,7 +4003,7 @@ case 'buypremium':
                         externalAdReply: {
                             showAdAttribution: false,
                             title: 'BUY PREMIUM',
-                            body: `15k / MONTH`,
+                            body: `100 / MONTH`,
                             thumbnailUrl: 'https://telegra.ph/file/0955010ca2f8bf045fb0a.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -4505,7 +4505,7 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*❋ 𝐏͢ᴏɴɢ᷏ ↳* ${new Date() - startTime} ms`
+          conversation: `*❋ 𝐏͢ᴏɴɢ᷏ ↳* ${new Date() - startTime} 𝐦𝐬`
         }
       }
     }, {});
@@ -5470,8 +5470,8 @@ case 'emojimix': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
   let [emoji1, emoji2] = text.split`+`;
-  if (!emoji1) throw `Example: ${prefix + command} 😅+🤔`;
-  if (!emoji2) throw `Example: ${prefix + command} 😅+🤔`;
+  if (!emoji1) throw `Example: ${prefix + command} 🗿+💀`;
+  if (!emoji2) throw `Example: ${prefix + command} 🖐🏻+🩵`;
   let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`);
   for (let res of anu.results) {
     let encmedia = await gss.sendImageAsSticker(m.chat, res.url, m, { packname: global.packname, author: global.author, categories: res.tags });
