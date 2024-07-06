@@ -1378,7 +1378,7 @@ case 'scriptbot':
             const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString('en-GB');
 
             const uy = `*GitHub Repository:* ${data.html_url}
-⭐ *Stars:* https://github.com/Xoulfff/xoul-md
+⭐ *Stars:* https://github.com/Xoulfff/xoul-md.star
 ♈ *Forks:* https://github.com/Xoulfff/xoul-md.fork
 📅 *Release Date:* ${releaseDate}
 🕐 *Last Update:* ${lastUpdateDate}
