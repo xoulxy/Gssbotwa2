@@ -898,7 +898,7 @@ const menuText = `*🦊 Tʏᴩᴇ Bᴇʟᴏᴡ Nᴜᴍʙᴇʀ*
 const menuMessage = `
 𝐗ᴏᴜʟ 𝐌ᴅ
 ╭─────────────·
-│📍 𝐕ᴇʀsɪᴏᴍ: ᴠ2
+│📍 𝐕ᴇʀsɪᴏɴ: ᴠ2
 │👨‍💻 𝐎ᴡɴᴇʀ : 𝐗ᴏᴜʟ 𝐒ᴇʀ      
 │👤 𝐍ᴜᴍʙᴇʀ: 919633605648
 ╰─────────────
@@ -925,7 +925,7 @@ const lowerText = m.text.toLowerCase();
 
 if (command === 'menu2') {
         await gss.sendMessage(m.chat, {
-            image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+            image: { url: 'https://i.imgur.com/CoAcgTb.jpeg' },
             caption: menuMessage,
             contextInfo: {
                 externalAdReply: {
@@ -945,7 +945,7 @@ if (command === 'menu2') {
 
             if (subMenu !== undefined) {
                 await gss.sendMessage(m.chat, {
-                    image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+                    image: { url: 'https://i.imgur.com/CoAcgTb.jpeg' },
                     caption: subMenu,
                     contextInfo: {
                         externalAdReply: {
