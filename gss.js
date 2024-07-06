@@ -884,7 +884,7 @@ const introTextFun = generateMenu(cmdFun, '𝗙𝗨𝗡 𝗠𝗘𝗡𝗨');
 const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨');
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
 
-const menuText = `*🔢 TYPE BELOW NUMBER*
+const menuText = `*🦊 Tʏᴩᴡ Bᴇʟᴏᴡ Nᴜᴍʙᴇʀ*
 1. ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
 2. ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
 3. ɢʀᴏᴜᴘᴍᴇɴᴜ
@@ -896,11 +896,11 @@ const menuText = `*🔢 TYPE BELOW NUMBER*
 9. ᴍᴀɪɴᴍᴇɴᴜ`;
 
 const menuMessage = `
-𝐗ᴏᴜʟ - 𝐌𝐃
+𝐗ᴏᴜʟ - 𝐌ᴅ
 ╭─────────────·
-│📍 ᴠᴇʀꜱɪᴏɴ: ᴠ2
-│👨‍💻 ᴏᴡɴᴇʀ : ᴇᴛʜɪx xsɪᴅ      
-│👤 ɴᴜᴍʙᴇʀ: 919633605648
+│📍 𝐕ᴇʀꜱɪᴏɴ: ᴠ2
+│👨‍💻 𝐎ᴡɴᴇʀ : 𝐗ᴏᴜʟ 𝐒ᴇʀ      
+│👤 𝐍ᴜᴍʙᴇʀ: 919633605648
 ╰─────────────
 
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
@@ -925,7 +925,7 @@ const lowerText = m.text.toLowerCase();
 
 if (command === 'menu2') {
         await gss.sendMessage(m.chat, {
-            image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+            image: { url: 'https://i.imgur.com/CoAcgTb.jpeg' },
             caption: menuMessage,
             contextInfo: {
                 externalAdReply: {
