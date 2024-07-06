@@ -5631,11 +5631,11 @@ case 'menuall':
 case 'allmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-    await doReact("📁");
+    await doReact("🫀");
     let a = db.data.users[m.sender];
     let introText = `
 ╭──═❮ *𝐗ᴏᴜʟ 𝐌ᴅ* ❯═─┈•
-│ 𝐇ᴇʏʏ *${pushname}* 👋  
+│ 𝐇ᴇʏʏ *${pushname}* 🖐🏻  
 ╰–❖ *${greetingTime}* 😄 
 
 ╭──═❮ *𝐁ᴏᴛ 𝐈ɴғᴏ* ❯═─┈•
@@ -5828,7 +5828,7 @@ case 'groupmenu': {
   const randomFontStyle = getRandomFontStyle();
   const randomSymbol = getRandomSymbol();
   
-  await doReact("📁");
+  await doReact("🫀");
   
   const cmdList = cmdGrup.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
 
@@ -5863,7 +5863,7 @@ case 'dlmenu':
 case 'downmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("⬇️");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -5895,7 +5895,7 @@ break;
 case 'searchmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("🔍");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -5927,7 +5927,7 @@ break;
 case 'funmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -5959,7 +5959,7 @@ break;
 case 'convertmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -5991,7 +5991,7 @@ break;
 case 'mainmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -6023,7 +6023,7 @@ break;
 case 'ownermenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -6055,7 +6055,7 @@ break;
 case 'aimenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
@@ -6089,7 +6089,7 @@ break;
 case 'toolmenu': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("📁");
+  await doReact("🫀");
     const randomSymbol = getRandomSymbol();
     const randomFontStyle = getRandomFontStyle();
     
