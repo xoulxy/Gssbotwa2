@@ -124,8 +124,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "𝐗ᴏᴜʟ 𝐌ᴅ🖐🏻🩵";
+	const devlopernumber = "919633605648";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -530,7 +530,7 @@ async function setBio() {
                 second: '2-digit'
             };
             const timeString = moment(date).tz('Asia/Kolkata').format('MM/DD/YYYY ⌚ hh:mm:ss A');
-            const status = `📆 ${timeString} gssbotwa ⚡`;
+            const status = `📆 ${timeString} 𝐗ᴏᴜʟ 𝐌ᴅ ⚡`;
             await gss.updateProfileStatus(status).catch(_ => _);
         }
     }, 60000);
@@ -896,11 +896,11 @@ const menuText = `*🔢 TYPE BELOW NUMBER*
 9. ᴍᴀɪɴᴍᴇɴᴜ`;
 
 const menuMessage = `
-👨‍💻 GSSBOTWA - ＭＤ - Ｖ2 👨‍💻
+𝐗ᴏᴜʟ - 𝐌𝐃
 ╭─────────────·
 │📍 ᴠᴇʀꜱɪᴏɴ: ᴠ2
 │👨‍💻 ᴏᴡɴᴇʀ : ᴇᴛʜɪx xsɪᴅ      
-│👤 ɴᴜᴍʙᴇʀ: 917050906659
+│👤 ɴᴜᴍʙᴇʀ: 919633605648
 ╰─────────────
 
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
@@ -3099,7 +3099,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
     if (selectedUrl) {
       try {
         // Fetch video info for additional details
-        const videoInfo = await ytdl.getInfo(selectedUrl);
+  const videoInfo = await ytdl.getInfo(selectedUrl);
 
         // Get the video thumbnail
         const thumbnailUrl = videoInfo.videoDetails.thumbnails[0].url;
@@ -3110,7 +3110,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *Xᴏᴜʟ Mᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3572,25 +3572,25 @@ case 'truecaller':
     info += `┆ ⚝ *Name:* ${name}\n`;
 
     if (addresses && addresses.length > 0) {
-      info += `┆ ⚝ *Address:* ${addresses[0].city}, ${addresses[0].countryCode}\n`;
-      info += `┆ ⚝ *Time Zone:* ${addresses[0].timeZone}\n`;
-      info += `┆ ⚝ *Pin Code* ${addresses[0].zipCode}\n`;
-      info += `┆ ⚝ *Street* ${addresses[0].street}\n`;
+      info += `┆ ⚝ *Aᴅᴅʀᴇꜱꜱ:* ${addresses[0].city}, ${addresses[0].countryCode}\n`;
+      info += `┆ ⚝ *Tɪᴍᴇ Zᴏɴᴇ:* ${addresses[0].timeZone}\n`;
+      info += `┆ ⚝ *Pɪɴ Cᴏᴅᴇ* ${addresses[0].zipCode}\n`;
+      info += `┆ ⚝ *Sᴛʀᴇᴇᴛ* ${addresses[0].street}\n`;
     }
 
-    info += `┆ ⚝ *Email:* ${email}\n`;
+    info += `┆ ⚝ *Eᴍᴀɪʟ:* ${email}\n`;
     info += `╰–––––––––––––––༓\n`;
 
     if (countryDetails) {
-      info += `╭––『 *countryDetails* 』\n`;
-      info += `┆ ⚝ *Name:* ${countryDetails.name}\n`;
-      info += `┆ ⚝ *Native:* ${countryDetails.native}\n`;
-      info += `┆ ⚝ *Phone Code:* +${countryDetails.phone[0]}\n`;
-      info += `┆ ⚝ *Continent:* ${countryDetails.continent}\n`;
-      info += `┆ ⚝ *Capital:* ${countryDetails.capital}\n`;
-      info += `┆ ⚝ *Currency:* ${countryDetails.currency.join(', ')}\n`;
-      info += `┆ ⚝ *Languages:* ${countryDetails.languages.join(', ')}\n`;
-      info += `┆ ⚝ *Flag:* ${countryDetails.flag}\n`;
+      info += `╭––『 *Cᴏᴜɴᴛʀʏ Dᴇᴛᴀɪʟꜱ* 』\n`;
+      info += `┆ ⚝ *Nᴀᴍᴇ:* ${countryDetails.name}\n`;
+      info += `┆ ⚝ *Nᴀᴛɪᴠᴇ:* ${countryDetails.native}\n`;
+      info += `┆ ⚝ *Pʜᴏɴᴇ Cᴏᴅᴇ:* +${countryDetails.phone[0]}\n`;
+      info += `┆ ⚝ *Cᴏɴᴛɪɴᴇɴᴛ:* ${countryDetails.continent}\n`;
+      info += `┆ ⚝ *Cᴀᴩɪᴛᴀʟ:* ${countryDetails.capital}\n`;
+      info += `┆ ⚝ *Cᴜʀʀᴇɴᴄʏ:* ${countryDetails.currency.join(', ')}\n`;
+      info += `┆ ⚝ *Lᴀɴɢᴜᴀɢᴇ:* ${countryDetails.languages.join(', ')}\n`;
+      info += `┆ ⚝ *Fʟᴀɢ:* ${countryDetails.flag}\n`;
       info += `╰–––––––––––––––༓`;
     }
 
@@ -3615,9 +3615,9 @@ case "xnxxdl": {
             let xn = await fg.xnxxdl(text)
 gss.sendMessage(m.chat, { caption: `  *XNXX DL*
         
-✍ *Title:* ${xn.title}
-⌛ *Duration:* ${xn.duration}
-📽 *Visual Quality:* ${xn.quality}`, video: {url: xn.url_dl} }, { quoted: m })
+✒️ *Tɪᴛʟᴇ:* ${xn.title}
+⌛ *Dᴜʀᴀᴛɪᴏɴ:* ${xn.duration}
+📽 *Vᴠɪꜱᴜᴀʟ Qᴜᴀʟɪᴛʏ:* ${xn.quality}`, video: {url: xn.url_dl} }, { quoted: m })
 }
 break
 
@@ -3728,11 +3728,11 @@ case 'apk': case 'app': case 'apkdl': {
   let info = `╭───〈 *${data.name}* 〉───◆
 ▯╭─────────────···▸
 ┴│▸
-▮➣ *App Name:* ${data.name}
-▮➣ *App Id:* ${data.package}
-▮➣ *Last Update:* ${data.lastup}
-▮➣ *App Size:* ${data.size}
-▮➣ *App Version:* ${data.version}
+▮➣ *Aᴩᴩ Nᴀᴍᴇ:* ${data.name}
+▮➣ *Aᴩᴩ Iᴅ:* ${data.package}
+▮➣ *Lᴀꜱᴛ Uᴩᴅᴀᴛᴇ:* ${data.lastup}
+▮➣ *Aᴩᴩ Sɪᴢᴇ:* ${data.size}
+▮➣ *Aᴩᴩ Vᴇʀꜱɪᴏɴ:* ${data.version}
 ┃✵╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷`;
 
@@ -3996,15 +3996,15 @@ case 'buypremium':
             case 'premiumuser': {
               if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-                let teks = `Hi ${pushname}👋\n Want to Buy Premium? Just chat with the owner😉`
+                let teks = `Hi ${pushname}👋\n Wᴀɴᴛ Tᴏ Bᴜʏ Pʀᴇᴍɪᴜᴍ? Jᴜꜱᴛ Cʜᴀᴛ Wɪᴛʜ Tʜᴇ Oᴡɴᴇʀ🖐🏻`
                 await gss.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: false,
                             title: 'BUY PREMIUM',
-                            body: `15k / MONTH`,
-                            thumbnailUrl: 'https://telegra.ph/file/0955010ca2f8bf045fb0a.jpg',
+                            body: `50 / MONTH`,
+                            thumbnailUrl: 'https://i.imgur.com/CoAcgTb.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: false
@@ -4095,13 +4095,13 @@ await m.reply(`Please wait...`);
     let res = await igs.igStalk(args[0])
     let te = `
 ┌──「 *Information* 
-▢ *🔖Name:* ${res.name} 
-▢ *🔖Username:* ${res.username}
-▢ *👥Follower:* ${res.followersH}
-▢ *🫂Following:* ${res.followingH}
-▢ *📌Bio:* ${res.description}
-▢ *🏝️Posts:* ${res.postsH}
-▢ *🔗 Link* : https://instagram.com/${res.username.replace(/^@/, '')}
+▢ *🫀Nᴀᴍᴇ:* ${res.name} 
+▢ *🫀Uꜱᴇʀɴᴀᴍᴇ:* ${res.username}
+▢ *🫀Fᴏʟʟᴏᴡᴇʀ:* ${res.followersH}
+▢ *🫀Fᴏʟʟᴏᴡɪɴɢ:* ${res.followingH}
+▢ *🫀Bɪᴏ:* ${res.description}
+▢ *🫀Pᴏꜱᴛ:* ${res.postsH}
+▢ *🔗 Lɪɴᴋ* : https://instagram.com/${res.username.replace(/^@/, '')}
 └────────────`
      await gss.sendMessage(m.chat, {image: { url: res.profilePic }, caption: te }, {quoted: m})
       } catch {
@@ -4505,11 +4505,11 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*Pong:* ${new Date() - startTime} ms`
+          conversation: `*❋ 𝐏͢ᴏɴɢ᷏ ↳* ${new Date() - startTime} ms`
         }
       }
     }, {});
-     await doReact("📍");
+     await doReact("👁️");
   } 
 break;
 
@@ -5250,7 +5250,7 @@ case 'addprem':
             case 'listprem': {
     if (!isCreator) return m.reply(mess.owner);
     let data = require("./src/data/premium.json");
-    let txt = `*------「 LIST PREMIUM 」------*\n\n`;
+    let txt = `*------「 Lɪꜱᴛ Pʀᴇᴍɪᴜᴍ 」------*\n\n`;
     
     for (let premiumData of data) {
         txt += `Nomer : ${premiumData.id}\n`;
@@ -5300,13 +5300,13 @@ case 'infobot':
         if (isBanChat) return m.reply(mess.bangc);
     const tod = `
 ╭━──━─◈─━─━╮
-│🔖 *Bot Name* : ${botname}
-│🔖 *Owner Name* : ${ownername}
-│🔖 *Owner Number* : ${owner}
-│🔖 *Prefix* :「 . 」
-│🔖 *Runtime* : _*${hours}h ${minutes}m ${seconds}s*_
-│🔖 *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
-│🔖 *TotalChat* : *${Object.keys(global.db.data.chats).length} Group/Chat*
+│🌩️ *Bᴏᴛ Nᴀᴍᴇ* : ${botname}
+│🌩️ *Oᴡɴᴇʀ Nᴀᴍᴇ* : ${ownername}
+│🌩️ *Oᴡɴᴇʀ Nᴜᴍʙᴇʀ* : ${owner}
+│🌩️ *Pʀᴇꜰɪx* :「 . 」
+│🌩️ *Rᴜɴᴛɪᴍᴇ* : _*${hours}h ${minutes}m ${seconds}s*_
+│🌩️ *Tᴏᴛᴀʟ Uꜱᴇʀ* : *${Object.keys(global.db.data.users).length} Users* 
+│🌩️ *Tᴏᴛᴀʟ Cʜᴀᴛ* : *${Object.keys(global.db.data.chats).length} Group/Chat*
 ╰━━─━─◈─━─━╯`;
 
     const pollOptions = ['.menu', '.ping'];
