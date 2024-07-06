@@ -5636,7 +5636,7 @@ case 'allmenu': {
     let introText = `
 ╭──═❮ *𝐗ᴏᴜʟ 𝐌ᴅ* ❯═─┈•
 │ 𝐇ᴇʏʏ *${pushname}* 🖐🏻  
-╰–❖ *${greetingTime}* 😄 
+╰–❖ *${greetingTime}* 🖐🏻
 
 ╭──═❮ *𝐁ᴏᴛ 𝐈ɴғᴏ* ❯═─┈•
 │ *𝐁ᴏᴛ 𝐍ᴀᴍᴇ* ➩ *${botname}*
@@ -5644,13 +5644,13 @@ case 'allmenu': {
 │ *𝐏ʀᴇғɪx* ➩  *[ . ]*
 │ *𝐔ᴘᴛɪᴍᴇ* ➩ *${hours}h ${minutes}m ${seconds}s*
 │ *𝐌ᴏᴅᴇ* ➩ *Public*
-│ *𝐓ᴏᴛᴀʟ𝐔sᴇʀ* ➩ *${Object.keys(global.db.data.users).length} Users* 
-│ *𝐓ᴏᴛᴀʟ𝐂ʜᴀᴛ* ➩ *${Object.keys(global.db.data.chats).length} Group/Chat*
+│ *𝐓ᴏᴛᴀʟ𝐔sᴇʀ* ➩ *${Object.keys(global.db.data.users).length} 𝐔sᴇʀs* 
+│ *𝐓ᴏᴛᴀʟ𝐂ʜᴀᴛ* ➩ *${Object.keys(global.db.data.chats).length} 𝐆ʀᴏᴜᴘ/𝐂ʜᴀᴛ*
 ╰────────────────❃ 
 ╭──═❮ *𝐔sᴇʀ 𝐈ɴғᴏ* ❯═─┈•
 │ *𝐍ᴀᴍʀ* ➩ *${pushname}*
 │ *𝐍ᴜᴍʙᴇʀ* ➩ *${m.sender.split('@')[0]}*
-│ *𝐎ʀᴇᴍɪᴜᴍ* ➩ *${isPremium ? '✅' : '❌'}* ${readmore}
+│ *𝐏ʀᴇᴍɪᴜᴍ* ➩ *${isPremium ? '✅' : '❌'}* ${readmore}
 ╰────────────────❃ `;
 
     const randomFontStyle = getRandomFontStyle();
