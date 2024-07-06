@@ -530,7 +530,7 @@ async function setBio() {
                 second: '2-digit'
             };
             const timeString = moment(date).tz('Asia/Kolkata').format('MM/DD/YYYY ⌚ hh:mm:ss A');
-            const status = `📆 ${timeString} gssbotwa ⚡`;
+            const status = `📆 ${timeString} 𝐗ᴏᴜʟ 𝐌ᴅ ⚡`;
             await gss.updateProfileStatus(status).catch(_ => _);
         }
     }, 60000);
@@ -1378,8 +1378,8 @@ case 'scriptbot':
             const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString('en-GB');
 
             const uy = `*GitHub Repository:* ${data.html_url}
-⭐ *Stars:* ${repoInfo.stars}
-♈ *Forks:* ${repoInfo.forks}
+⭐ *Stars:* https://github.com/Xoulfff/xoul-md
+♈ *Forks:* https://github.com/Xoulfff/xoul-md.fork
 📅 *Release Date:* ${releaseDate}
 🕐 *Last Update:* ${lastUpdateDate}
 👨‍💻 *Owner:* ${repoInfo.owner}`;
