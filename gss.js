@@ -884,7 +884,7 @@ const introTextFun = generateMenu(cmdFun, '𝗙𝗨𝗡 𝗠𝗘𝗡𝗨');
 const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨');
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
 
-const menuText = `*🦊 Tʏᴩᴡ Bᴇʟᴏᴡ Nᴜᴍʙᴇʀ*
+const menuText = `*🦊 Tʏᴩᴇ Bᴇʟᴏᴡ Nᴜᴍʙᴇʀ*
 1. ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
 2. ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
 3. ɢʀᴏᴜᴘᴍᴇɴᴜ
@@ -899,7 +899,7 @@ const menuMessage = `
 𝐗ᴏᴜʟ - 𝐌ᴅ
 ╭─────────────·
 │📍 𝐕ᴇʀꜱɪᴏɴ: ᴠ2
-│👨‍💻 𝐎ᴡɴᴇʀ : 𝐗ᴏᴜʟ 𝐒ᴇʀ      
+│🗿 𝐎ᴡɴᴇʀ : 𝐗ᴏᴜʟ 𝐒ᴇʀ      
 │👤 𝐍ᴜᴍʙᴇʀ: 919633605648
 ╰─────────────
 
@@ -1663,7 +1663,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *GSS BOTWA 😎 🔥*\n`;
+    formattedResult += `│⿻   *𝐗ᴏᴜʟ 𝐌ᴅ *\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -2107,9 +2107,9 @@ await doReact("🔎");
 const { lyrics, lyricsv2 } = require('@bochilteam/scraper')
 const result = await lyricsv2(text).catch(async _ => await lyrics(text))
 m.reply(`
-*✍️ Title:* ${result.title}
-*👨‍🎤 Author:* ${result.author}
-*🔗 Url:* ${result.link}
+*✍️ Tɪᴛᴋᴇ:* ${result.title}
+*👨‍🎤 Aᴜᴛᴏʀ:* ${result.author}
+*🔗 Uʀʟ:* ${result.link}
 
 *📝 Lyrics:*\n\n ${result.lyrics}
 `.trim())
@@ -2142,11 +2142,11 @@ case 'whatmusic': case 'find': case 'shazame':
             const { title, artists, album, genres, release_date } = res.metadata.music[0];
             const txt = `
                         𝚁𝙴𝚂𝚄𝙻𝚃
-                • 📌 *TITLE*: ${title}
+                • 📌 *Tᴛʟᴇ*: ${title}
                 • 👨‍🎤 𝙰𝚁𝚀𝚃𝙸𝚂𝚃: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'NOT FOUND'}
                 • 💾 𝙰𝙻𝙱𝚄𝙼: ${album.name || 'NOT FOUND'}
                 • 🌐 𝙶𝙴𝙽𝙴𝚁𝙾: ${genres !== undefined ? genres.map(v => v.name).join(', ') : 'NOT FOUND'}
-                • 📆 RELEASE DATE: ${release_date || 'NOT FOUND'}
+                • 📆 Rᴇʟᴇᴀꜱᴇ Dᴀᴛᴇ: ${release_date || 'NOT FOUND'}
             `.trim();
 
             fs.unlinkSync(`./tmp/${m.sender}.${ext}`);
@@ -2165,7 +2165,7 @@ case 'fetch':
 case 'get':
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  if (!/^https?:\/\//.test(text)) throw 'Start the *URL* with http:// or https://';
+  if (!/^https?:\/\//.text)) throw 'Start the *URL* with http:// or https://';
   const _url = new URL(text);
   const url = `${_url.origin}${_url.pathname}?${_url.searchParams.toString()}`;
   const res = await fetch(url);
@@ -2373,13 +2373,13 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
-│  *Youtube Mp4 Player* ✨
-│⿻ *Title:* ${videoInfo.title}
-│⿻ *Duration:* ${videoInfo.duration}
-│⿻ *Author:* ${videoInfo.author.name}
-│⿻ *Size:* ${formatBytes(finalVideoBuffer.length)}
-│⿻ *Upload Date:* ${formatUploadDate(videoInfo.uploadDate)} 
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│  *Yᴏᴜᴛᴜʙᴇ Mᴩ4 Pʟᴀʏᴇʀ* ✨
+│⿻ *Tɪʟᴇ:* ${videoInfo.title}
+│⿻ *Dᴜʀᴀᴛɪᴏɴ:* ${videoInfo.duration}
+│⿻ *Aᴜᴛʜᴏʀ:* ${videoInfo.author.name}
+│⿻ *Sɪᴢᴇ:* ${formatBytes(finalVideoBuffer.length)}
+│⿻ *Uᴩʟᴏᴅ ᴅᴀᴛᴇ:* ${formatUploadDate(videoInfo.uploadDate)} 
 ╰══•∞•═════════╯
 `;
 
@@ -2416,16 +2416,14 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
-│  *Youtube Mp4 Player* ✨
-│⿻ *Title:* ${firstVideo.title}
-│⿻ *Duration:* ${firstVideo.duration}
-│⿻ *Author:* ${firstVideo.author.name}
-│⿻ *Size:* ${formatBytes(finalVideoBuffer.length)}  
-│⿻ *Upload Date:* ${formatUploadDate(firstVideo.uploadDate)}
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│  *Yᴏᴜᴛᴜʙᴇ Mᴩ4 Pʟᴀʏᴇʀ* ✨
+│⿻ *Tɪᴛʟᴇ:* ${firstVideo.title}
+│⿻ *Dᴜʀᴀᴛɪᴏɴ:* ${firstVideo.duration}
+│⿻ *Aᴜᴛʜᴏʀ:* ${firstVideo.author.name}
+│⿻ *Sɪᴢᴇ:* ${formatBytes(finalVideoBuffer.length)}  
+│⿻ *UᴩʟᴏᴀᴅDᴀᴛᴇ:* ${formatUploadDate(firstVideo.uploadDate)}
 ╰══•∞•═════════╯
-`;
-
           await gss.sendMessage(m.chat, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: captionText });
           await doReact("✅");
         } catch (err) {
@@ -2478,7 +2476,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2521,7 +2519,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2588,7 +2586,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2637,7 +2635,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2949,8 +2947,8 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
-│  *Youtube Mp4 Player* ✨
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻*Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
 │⿻ *Duration:* ${videoInfo.videoDetails.lengthSeconds}s
@@ -3027,7 +3025,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
