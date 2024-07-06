@@ -124,8 +124,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "𝐗ᴏᴜʟ 𝐌ᴅ";
+	const devlopernumber = "91919633605648";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -884,7 +884,7 @@ const introTextFun = generateMenu(cmdFun, '𝗙𝗨𝗡 𝗠𝗘𝗡𝗨');
 const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨');
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
 
-const menuText = `*🔢 TYPE BELOW NUMBER*
+const menuText = `*🦊 Tʏᴩᴇ Bᴇʟᴏᴡ Nᴜᴍʙᴇʀ*
 1. ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
 2. ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
 3. ɢʀᴏᴜᴘᴍᴇɴᴜ
@@ -896,11 +896,11 @@ const menuText = `*🔢 TYPE BELOW NUMBER*
 9. ᴍᴀɪɴᴍᴇɴᴜ`;
 
 const menuMessage = `
-👨‍💻 GSSBOTWA - ＭＤ - Ｖ2 👨‍💻
+𝐗ᴏᴜʟ 𝐌ᴅ
 ╭─────────────·
-│📍 ᴠᴇʀꜱɪᴏɴ: ᴠ2
-│👨‍💻 ᴏᴡɴᴇʀ : ᴇᴛʜɪx xsɪᴅ      
-│👤 ɴᴜᴍʙᴇʀ: 917050906659
+│📍 𝐕ᴇʀsɪᴏᴍ: ᴠ2
+│👨‍💻 𝐎ᴡɴᴇʀ : 𝐗ᴏᴜʟ 𝐒ᴇʀ      
+│👤 𝐍ᴜᴍʙᴇʀ: 919633605648
 ╰─────────────
 
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
@@ -1663,7 +1663,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *GSS BOTWA 😎 🔥*\n`;
+    formattedResult += `│⿻   *𝐗ᴏᴜʟ 𝐌ᴅ*\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -2373,7 +2373,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2416,7 +2416,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2478,7 +2478,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2521,7 +2521,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2588,7 +2588,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2637,7 +2637,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2706,7 +2706,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2755,7 +2755,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2872,7 +2872,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2949,7 +2949,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3027,7 +3027,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3110,7 +3110,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -4094,14 +4094,14 @@ await m.reply(`Please wait...`);
     try {
     let res = await igs.igStalk(args[0])
     let te = `
-┌──「 *Information* 
-▢ *🔖Name:* ${res.name} 
-▢ *🔖Username:* ${res.username}
-▢ *👥Follower:* ${res.followersH}
-▢ *🫂Following:* ${res.followingH}
-▢ *📌Bio:* ${res.description}
-▢ *🏝️Posts:* ${res.postsH}
-▢ *🔗 Link* : https://instagram.com/${res.username.replace(/^@/, '')}
+┌──「 *𝐈ɴꜰᴏʀᴍᴀᴛɪᴏɴ* 
+▢ *🐼Nᴀᴍᴇ:* ${res.name} 
+▢ *🐼Uꜱᴇɴᴀᴍᴇ:* ${res.username}
+▢ *🐼Fᴏʟʟᴏᴡᴇʀ:* ${res.followersH}
+▢ *🐼Fᴏʟʟᴏᴡɪɴɢ:* ${res.followingH}
+▢ *🐼Bɪᴏ:* ${res.description}
+▢ *🐼Pᴏꜱᴛꜱ:* ${res.postsH}
+▢ *🐼 Lɪɴᴋ* : https://instagram.com/${res.username.replace(/^@/, '')}
 └────────────`
      await gss.sendMessage(m.chat, {image: { url: res.profilePic }, caption: te }, {quoted: m})
       } catch {
@@ -4505,11 +4505,11 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*Pong:* ${new Date() - startTime} ms`
+          conversation: `*❋ 𝐏͢ᴏɴɢ᷏ ↳* ${new Date() - startTime} ms`
         }
       }
     }, {});
-     await doReact("📍");
+     await doReact("🐦‍⬛");
   } 
 break;
 
@@ -5300,13 +5300,13 @@ case 'infobot':
         if (isBanChat) return m.reply(mess.bangc);
     const tod = `
 ╭━──━─◈─━─━╮
-│🔖 *Bot Name* : ${botname}
-│🔖 *Owner Name* : ${ownername}
-│🔖 *Owner Number* : ${owner}
-│🔖 *Prefix* :「 . 」
-│🔖 *Runtime* : _*${hours}h ${minutes}m ${seconds}s*_
-│🔖 *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
-│🔖 *TotalChat* : *${Object.keys(global.db.data.chats).length} Group/Chat*
+│🐨 *Bᴏᴛ Nᴀᴍᴇ* : ${botname}
+│🐨 *Oᴡɴᴇʀ Nᴀᴍᴇ* : ${ownername}
+│🐨 *Oᴡɴᴇʀ Nᴜᴍʙᴇʀ* : ${owner}
+│🐨 *Pʀᴇꜰɪx* :「 . 」
+│🐨 *Rᴜɴᴛɪᴍᴇ* : _*${hours}h ${minutes}m ${seconds}s*_
+│🐨 *Tᴏᴛᴀʟ Uꜱᴇʀ* : *${Object.keys(global.db.data.users).length} Users* 
+│🐨 *Tᴏᴛᴀʟ Cʜᴀᴛ* : *${Object.keys(global.db.data.chats).length} Group/Chat*
 ╰━━─━─◈─━─━╯`;
 
     const pollOptions = ['.menu', '.ping'];
@@ -5634,23 +5634,23 @@ case 'allmenu': {
     await doReact("📁");
     let a = db.data.users[m.sender];
     let introText = `
-╭──═❮ *GssBotwa* ❯═─┈•
-│ Hi *${pushname}* 👋  
+╭──═❮ *𝐗ᴏᴜʟ 𝐌ᴅ* ❯═─┈•
+│ 𝐇ᴇʏʏ *${pushname}* 👋  
 ╰–❖ *${greetingTime}* 😄 
 
-╭──═❮ *Bot Info* ❯═─┈•
-│ *Bot Name* : *${botname}*
-│ *Owner Name* : *${ownername}*
-│ *Prefix* :  *[ . ]*
-│ *Uptime* : *${hours}h ${minutes}m ${seconds}s*
-│ *Mode* : *Public*
-│ *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
-│ *TotalChat* : *${Object.keys(global.db.data.chats).length} Group/Chat*
+╭──═❮ *𝐁ᴏᴛ 𝐈ɴғᴏ* ❯═─┈•
+│ *𝐁ᴏᴛ 𝐍ᴀᴍᴇ* : *${botname}*
+│ *𝐎ᴡɴᴇʀ 𝐍ᴀᴍᴇ* : *${ownername}*
+│ *𝐏ʀᴇғɪx* :  *[ . ]*
+│ *𝐔ᴘᴛɪᴍᴇ* : *${hours}h ${minutes}m ${seconds}s*
+│ *𝐌ᴏᴅᴇ* : *Public*
+│ *𝐓ᴏᴛᴀʟ𝐔sᴇʀ* : *${Object.keys(global.db.data.users).length} Users* 
+│ *𝐓ᴏᴛᴀʟ𝐂ʜᴀᴛ* : *${Object.keys(global.db.data.chats).length} Group/Chat*
 ╰────────────────❃ 
-╭──═❮ *Users Info* ❯═─┈•
-│ *Name* : *${pushname}*
-│ *Number* : *${m.sender.split('@')[0]}*
-│ *Premium* : *${isPremium ? '✅' : '❌'}* ${readmore}
+╭──═❮ *𝐔sᴇʀ 𝐈ɴғᴏ* ❯═─┈•
+│ *𝐍ᴀᴍʀ* : *${pushname}*
+│ *𝐍ᴜᴍʙᴇʀ* : *${m.sender.split('@')[0]}*
+│ *𝐎ʀᴇᴍɪᴜᴍ* : *${isPremium ? '✅' : '❌'}* ${readmore}
 ╰────────────────❃ `;
 
     const randomFontStyle = getRandomFontStyle();
@@ -5660,7 +5660,7 @@ case 'allmenu': {
     
     
     introText += `
-╭───〈 𝗔𝗗𝗠𝗜𝗡 𝗠𝗘𝗡𝗨 〉───◆
+╭───〈 𝐀ᴅᴍɪɴᴇ 𝐌ᴇɴᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5669,7 +5669,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdTool.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨〉───◆
+╭───〈 𝐓ᴏᴏʟ 𝐌ᴇɴᴜ〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5678,7 +5678,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdAi.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗔𝗜 𝗠𝗘𝗡𝗨 〉───◆
+╭───〈 𝐀ɪ 𝐌ᴇɴᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5687,7 +5687,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdOwner.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗢𝗪𝗡𝗘𝗥 〉───◆
+╭───〈 𝐎ᴡɴᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5696,7 +5696,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdMain.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〉───◆
+╭───〈 𝐆ᴇɴᴇʀᴀʟ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5705,7 +5705,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdConv.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗘𝗥 〉───◆
+╭───〈 𝐂ɴᴠᴇʀᴛᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5714,7 +5714,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdFun.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 〉───◆
+╭───〈 𝐅ᴜɴ 𝐌ᴇɴᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5723,7 +5723,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
 cmdList = cmdStalk.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗦𝗧𝗔𝗟𝗞 〉───◆
+╭───〈 𝐒ᴛᴀʟᴋ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5732,7 +5732,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdSearch.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗦𝗘𝗔𝗥𝗖𝗛 〉───◆
+╭───〈 𝐒ᴇᴀʀᴄʜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5741,7 +5741,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdDown.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 〉───◆
+╭───〈 𝐃ᴏᴇɴʟᴏᴀᴅᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5833,7 +5833,7 @@ case 'groupmenu': {
   const cmdList = cmdGrup.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
 
   const introText = `
-╭───〈 *𝗔𝗗𝗠𝗜𝗡 𝗠𝗘𝗡𝗨* 〉───◆
+╭───〈 *𝐀ᴅᴍɪɴᴇ* 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5902,7 +5902,7 @@ case 'searchmenu': {
     let cmdList = cmdSearch.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗦𝗘𝗔𝗥𝗖𝗛 〉───◆
+╭───〈 𝐒ᴇᴀʀᴄʜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5934,7 +5934,7 @@ case 'funmenu': {
     let cmdList = cmdFun.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 〉───◆
+╭───〈 𝐅ᴜɴ 𝐌ᴇᴍᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5966,7 +5966,7 @@ case 'convertmenu': {
     let cmdList = cmdConv.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗘𝗥 〉───◆
+╭───〈 𝐂ᴏɴᴠᴇʀᴛᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5998,7 +5998,7 @@ case 'mainmenu': {
     let cmdList = cmdMain.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〉───◆
+╭───〈 𝐆ᴇɴᴇʀᴀʟ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -6030,7 +6030,7 @@ case 'ownermenu': {
     let cmdList = cmdOwner.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗢𝗪𝗡𝗘𝗥 〉───◆
+╭───〈 𝐎ᴡɴᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -6062,7 +6062,7 @@ case 'aimenu': {
     let cmdList = cmdAi.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗔𝗜 𝗠𝗘𝗡𝗨 〉───◆
+╭───〈 𝐀ɪ 𝐌ᴇɴᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -6096,7 +6096,7 @@ case 'toolmenu': {
     let cmdList = cmdTool.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨〉───◆
+╭───〈 𝐓ᴏᴏʟ 𝐌ᴇɴᴜ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
