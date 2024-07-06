@@ -5615,7 +5615,7 @@ break;
             
 
 function getRandomSymbol() {
-    const symbols = ['◉', '★', '◎', '✯','✯','✰','◬','✵','✦']; // Add more symbols as needed
+    const symbols = ['✬', '★', '◎', '✯','✯','✰','◬','✵','✦']; // Add more symbols as needed
     const randomIndex = Math.floor(Math.random() * symbols.length);
     return symbols[randomIndex];
 }
@@ -5639,18 +5639,18 @@ case 'allmenu': {
 ╰–❖ *${greetingTime}* 😄 
 
 ╭──═❮ *𝐁ᴏᴛ 𝐈ɴғᴏ* ❯═─┈•
-│ *𝐁ᴏᴛ 𝐍ᴀᴍᴇ* : *${botname}*
-│ *𝐎ᴡɴᴇʀ 𝐍ᴀᴍᴇ* : *${ownername}*
-│ *𝐏ʀᴇғɪx* :  *[ . ]*
-│ *𝐔ᴘᴛɪᴍᴇ* : *${hours}h ${minutes}m ${seconds}s*
-│ *𝐌ᴏᴅᴇ* : *Public*
-│ *𝐓ᴏᴛᴀʟ𝐔sᴇʀ* : *${Object.keys(global.db.data.users).length} Users* 
-│ *𝐓ᴏᴛᴀʟ𝐂ʜᴀᴛ* : *${Object.keys(global.db.data.chats).length} Group/Chat*
+│ *𝐁ᴏᴛ 𝐍ᴀᴍᴇ* ➩ *${botname}*
+│ *𝐎ᴡɴᴇʀ 𝐍ᴀᴍᴇ* ➩ *${ownername}*
+│ *𝐏ʀᴇғɪx* ➩  *[ . ]*
+│ *𝐔ᴘᴛɪᴍᴇ* ➩ *${hours}h ${minutes}m ${seconds}s*
+│ *𝐌ᴏᴅᴇ* ➩ *Public*
+│ *𝐓ᴏᴛᴀʟ𝐔sᴇʀ* ➩ *${Object.keys(global.db.data.users).length} Users* 
+│ *𝐓ᴏᴛᴀʟ𝐂ʜᴀᴛ* ➩ *${Object.keys(global.db.data.chats).length} Group/Chat*
 ╰────────────────❃ 
 ╭──═❮ *𝐔sᴇʀ 𝐈ɴғᴏ* ❯═─┈•
-│ *𝐍ᴀᴍʀ* : *${pushname}*
-│ *𝐍ᴜᴍʙᴇʀ* : *${m.sender.split('@')[0]}*
-│ *𝐎ʀᴇᴍɪᴜᴍ* : *${isPremium ? '✅' : '❌'}* ${readmore}
+│ *𝐍ᴀᴍʀ* ➩ *${pushname}*
+│ *𝐍ᴜᴍʙᴇʀ* ➩ *${m.sender.split('@')[0]}*
+│ *𝐎ʀᴇᴍɪᴜᴍ* ➩ *${isPremium ? '✅' : '❌'}* ${readmore}
 ╰────────────────❃ `;
 
     const randomFontStyle = getRandomFontStyle();
@@ -5705,7 +5705,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdConv.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝐂ɴᴠᴇʀᴛᴇʀ 〉───◆
+╭───〈 𝐂ᴏɴᴠᴇʀᴛᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5741,7 +5741,7 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     cmdList = cmdDown.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     introText += `
-╭───〈 𝐃ᴏᴇɴʟᴏᴀᴅᴇʀ 〉───◆
+╭───〈 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -5870,7 +5870,7 @@ case 'downmenu': {
     let cmdList = cmdDown.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥* 〉───◆
+╭───〈 *𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ* 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
