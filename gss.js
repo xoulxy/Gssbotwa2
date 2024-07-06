@@ -593,25 +593,25 @@ const currentTime = moment().tz('Asia/Kolkata').format('HH:mm:ss');
 let time; 
 
 if (currentTime < "23:59:00") {
-    var greetingTime = 'Good Night 🏙️';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐍ɪɢʜᴛ';
 }
 if (currentTime < "19:00:00") {
-    var greetingTime = 'Good Evening 🌆';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐄ᴠᴇɴɪɴɢ';
 }
 if (currentTime < "18:00:00") {
-    var greetingTime = 'Good Afternoon 🌇';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐀ғᴛᴇʀɴᴏᴏɴ';
 }
 if (currentTime < "15:00:00") {
-    var greetingTime = 'Good Day 🌤️';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐃ᴀʏ';
 }
 if (currentTime < "10:00:00") {
-    var greetingTime = 'Good Morning 🌄';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐌ᴏʀɴɪɴɢ';
 }
 if (currentTime < "05:00:00") {
-    var greetingTime = 'Good Dawn 🌆';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐃ᴀᴡᴍ';
 }
 if (currentTime < "03:00:00") {
-    var greetingTime = 'Good Midnight 🌃';
+    var greetingTime = '𝐆ᴏᴏᴅ 𝐌ɪᴅɴɪɢʜᴛ';
 }
 
 
