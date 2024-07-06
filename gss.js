@@ -3996,7 +3996,7 @@ case 'buypremium':
             case 'premiumuser': {
               if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-                let teks = `Hi ${pushname}👋\n Want to Buy Premium? Just chat with the owner😉`
+                let teks = `Hi ${pushname}🖐🏻\n 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐓ᴏ 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ ? 𝐉ᴜsᴛ 𝐂ʜᴀᴛ 𝐖ɪᴛʜ 𝐗ᴏᴜʟ 𝐒ᴇʀ 🖖🏻🐦`
                 await gss.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -4004,7 +4004,7 @@ case 'buypremium':
                             showAdAttribution: false,
                             title: 'BUY PREMIUM',
                             body: `100 / MONTH`,
-                            thumbnailUrl: 'https://telegra.ph/file/0955010ca2f8bf045fb0a.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/CoAcgTb.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: false
