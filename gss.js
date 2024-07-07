@@ -4192,7 +4192,7 @@ case 'img': case 'gimage':
         await gss.sendMedia(m.chat, images[i], `image_${i + 1}.png`, null, m);
       }
     } catch {
-      throw '*Oops! Something went wrong while generating images. Please try again later.*';
+      throw '_*Oops! Something went wrong while generating images_. _Please try again later.*_';
     }
     break;
 
