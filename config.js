@@ -8,8 +8,8 @@ global.linkGroup = 'https://chat.whatsapp.com/BxR0LrCkAVKGHriVvo7sKy'
 
 global.apikey = 'bf2d2cf29b3edc604b447983';
 global.ownername = "𝐗ᴏᴜʟ 𝐒ᴇʀ";
-global.owner = ['917050906659'];
-global.premium = ['917050906659'];
+global.owner = ['919633605648'];
+global.premium = ['919633605648'];
 global.packname = "xᴏᴜʟ";
 global.author = "sᴇʀ";
 global.sessionName = 'session';
