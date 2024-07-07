@@ -2051,7 +2051,7 @@ case 'remini': case 'upscale': case 'enhance': case 'hd': {
         let proses = await remini(media, "enhance");
 
         // Send the enhanced image with the new caption
-        gss.sendMessage(m.chat, { image: proses, caption: `${mess.success} enhanced by gss botwa` }, { quoted: m });
+        gss.sendMessage(m.chat, { image: proses, caption: `${mess.success} 𝐄ɴʜsɴᴄᴇᴅ 𝐁ʏ 𝐗ᴏᴜʟ 𝐌ᴅ` }, { quoted: m });
     } catch (error) {
         console.error('Error in Remini enhancement:', error);
         m.reply(`An error occurred: ${error.message}`);
@@ -3996,7 +3996,7 @@ case 'buypremium':
             case 'premiumuser': {
               if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-                let teks = `Hi ${pushname}🖐🏻\n 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐓ᴏ 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ ? 𝐉ᴜsᴛ 𝐂ʜᴀᴛ 𝐖ɪᴛʜ 𝐗ᴏᴜʟ 𝐒ᴇʀ 🖖🏻🐦`
+                let teks = `𝐇ᴇʏʏ ${pushname}👁️\n 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐓ᴏ 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ ? 𝐉ᴜsᴛ 𝐂ʜᴀᴛ 𝐖ɪᴛʜ 𝐗ᴏᴜʟ 𝐒ᴇʀ 🖖🏻🐦`
                 await gss.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
